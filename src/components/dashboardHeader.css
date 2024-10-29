@@ -1,0 +1,68 @@
+.text-poppins {
+  font-family: "Poppins", "san-serif";
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.web-logo {
+  width: 217px;
+  height: 46px;
+  top: 30px;
+  left: 56px;
+  gap: 7.67px;
+}
+
+.icons {
+  font-size: 25px;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.dashboard-header-btn {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  border: 2px solid #00000029;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-logo {
+    display: block;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: 16px;
+    gap: 4px;
+  }
+  .web-logo {
+    display: none;
+  }
+  .drop-down {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .icons {
+    font-size: 20px;
+  }
+
+  .dashboard-header-btn {
+    display: none;
+  }
+}
