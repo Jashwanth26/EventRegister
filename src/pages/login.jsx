@@ -71,6 +71,8 @@ export default function Login() {
           </span>
           <span className="text-lato mt-2 md:text-sm text-xs">
             Log In to Register for Events
+            Email: user1@example.com
+            Password: password1
           </span>
           <div className="flex flex-col w-full md:w-3/6 mt-8">
             <Form
